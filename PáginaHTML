@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recife Antigo</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Guia Turistico</a></li>
+            <li><a href="Tours.html">Passeios</a></li>
+            <li><a href="Contact.html">Contato</a></li>
+        </ul>
+    </nav>
+    <header>
+        <div class="center">
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/00/2e/31/recife.jpg?w=1200&h=1200&s=1" alt="Recife Antigo">
+            <h1>Recife Antigo</h1>
+
+        </div>
+    </header>
+
+    <div class="container">
+        <p>O nome oficial é Bairro do Recife, mas todo mundo chama mesmo é de Recife Antigo - ou, quando começa a intimidade, só “Antigo” mesmo. Charles Darwin, Santos Dumont e Dom Pedro II estão entre os personagens ilustres que já desembarcaram num dos pedaços mais interessantes da capital pernambucana, e você não vai perder a chance de entrar pra essa lista, né? :P Afinal, esse bairro por si só já faz valer no mínimo um dia na cidade antes de você correr pras praias dos arredores. Sei que sou suspeita pra falar, mas pode confiar.
+            Além de caminhar sem rumo pelas ruas de paralelepípedos, lembrando sempre de olhar pra cima pra paquerar os prédios históricos, um dia no Recife Antigo inclui um punhado de atrações massa, sem falar nos bons bares e restaurantes.
+            E apesar de ser um dos principais cartões postais recifenses, o bairro não é só pra turista ver: ele também é o maior polo tecnológico e um dos principais centros de lazer e cultura da cidade.</p>
+        
+            <p>Pra começar com o pé direito, siga direto pra o Marco Zero. O nome é oficial da praça é Barão do Rio Branco, mas dificilmente você vai achar alguém que saiba/lembre disso. Além de ser o ponto de partida pra marcação das distâncias rodoviárias locais, essa praça é o palco principal pra manifestações culturais como o nosso Carnaval maravilhoso.
+            E além do símbolo de “Recife” que foi colocado no local há alguns anos e já rendeu muitas selfies desde então, outro destaque do espaço é o chão, tomado por uma obra do pintor Cícero Dias inspirada no seu quadro “Eu vi o mundo… e ele começava no Recife” (que gerou, na época em que foi mostrado ao mundo, polêmicas parecidas com as que têm rolado hoje por aí), com uma rosa dos ventos no meio.</p>
+        
+            <footer>
+                <p>Copyright © 2008 - 2022 · Guia de Destinos · Guias grátis produzidos pela equipe do Melhores Destinos · Política de Privacidade</p>
+        
+        
+        
+            </footer>
+    </div>
+    
+    
+    
+</body>
+</html>
+
+
+===CSS===
+
+body{
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h1{
+    text-align: center;
+    color: greenyellow;
+    font-size: 32px;
+    
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.center{
+    text-align: center;
+}
+
+img{
+    border: 5px solid greenyellow;
+}
+.container{
+    padding: 0px 50px;
+
+}
+
+nav a:hover{
+    color: greenyellow ;
+}
